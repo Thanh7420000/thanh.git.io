@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<title> BÀI TẬP VỀ NHÀ</title>
+<head>
+	<link rel="stylesheet" href="./boot.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+	</head>
+	<body>
+		<h1>HOA THỊ THANH - B19DCDT216</h1>
+
+		<h2> <center> BIỂU ĐỒ NHIỆT ĐỘ, ĐỘ ẨM, LƯỢNG MƯA   </center></h2>
+
+			<div class="row">
+				<div class="col-lg-4 " id="col1">
+
+					NHIỆT ĐỘ:
+					<input type="number" id="box1" onchange="bang1()" style="text-align: center;">
+				
+				</div>
+				<div class="col-lg-4 " id="col2">
+					ĐỘ ẨM:
+					<input type="number" id="box2" onchange="bang2()" style="text-align: center;">
+				</div>
+					
+				<div class="col-lg-4 " id="col3">
+					 LƯỢNG MƯA :
+					 <input type="number" id="box3" onchange="bang3()" style="text-align: center;">
+					</div>
+			</div>
+        <div class="row">
+        	<div class="col-lg-8 img,">
+                 <center><img src="https://images.tuyensinh247.com/picture/2019/0227/khihau-bd_1.jpg" alt="Biểu đồ"></center>
+
+			</div>
+			<div class="col-lg-4" id="button1" >
+				<div class="CONGTAC1" >CÔNG TẮC 1<br>
+					<div class="btn btn-primary" id="nut1"  onclick="congtacdoimau1()" ondblclick="congtacdoimau2()">ON</div>
+					<div class="btn btn-primary" id="nut2" onclick="congtacdoimau3()" ondblclick="congtacdoimau4()"> OFF</div>
+            
+				</div> <br>
+				<div class="CONGTAC1">CÔNG TẮC 2<br>
+                <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+                 </label>
+				</div>
+			</div>
+		</div>
+		<script src="main.js"></script>
+    </body>
+</html>
